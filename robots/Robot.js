@@ -15,3 +15,8 @@ const robotSchema = new Schema({
 })
 
 robotSchema.plugin(timestamps)
+
+const robotModel = mongoose.model('Robot', robotSchema)
+
+
+module.exports = robotModel

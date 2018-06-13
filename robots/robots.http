@@ -1,0 +1,14 @@
+POST http://localhost:3000/robots
+Content-Type: application/json
+
+{
+    "name": "Mal",
+    "type": "Dog",
+    "bodyColour": "green",
+    "faceColour": "white",
+    "highlightColour": "yellow",
+    "personality": "royal",
+    "message": ["Hello World"],
+    "dob": "2018-01-01",
+    "price": 100000
+}

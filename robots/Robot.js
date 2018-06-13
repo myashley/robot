@@ -3,8 +3,8 @@ const timestamps = require('mongoose-timestamp')
 const Schema = mongoose.Schema
 
 const robotSchema = new Schema({
-    name: String,
-    type: String,
+    robotName: String,
+    robotType: String,
     bodyColour: String,
     faceColour: String,
     highlightColour: String,

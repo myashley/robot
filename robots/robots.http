@@ -2,8 +2,8 @@ POST http://localhost:3000/robots
 Content-Type: application/json
 
 {
-    "name": "Mal",
-    "type": "Dog",
+    "robotName": "Mal",
+    "robotType": "Dog",
     "bodyColour": "green",
     "faceColour": "white",
     "highlightColour": "yellow",
